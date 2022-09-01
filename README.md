@@ -18,5 +18,5 @@ This is a solution to the [NFT preview card component](https://www.frontendmento
 
 ### Links
 
-- Solution URL: https://www.frontendmentor.io/solutions/qr-code-component-O9amPJNyeS
-- Live Site URL: https://reliable-dodol-30d529.netlify.app/
+- Solution URL: https://www.frontendmentor.io/solutions/nft-preview-card-component-dQVXgkwjuT
+- Live Site URL: https://elaborate-tapioca-0d52b4.netlify.app/

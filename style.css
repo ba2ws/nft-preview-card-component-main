@@ -46,12 +46,60 @@ h3 {
     justify-content: center;
     align-items: center;
     border-radius: 15px;
-    background-color: hsl(216, 50%, 16%);
 }
+
+
+.photo div {
+    position: absolute;
+    background-color: cyan;
+    top: 0;
+    margin-top: 206px;
+    height: 300px;
+    width: 301px;
+    border-radius: 15px;
+    margin-left: 24px;
+    opacity: 0;
+}
+
+.photo div img:hover{
+    opacity: 100%;
+}
+.photo div:hover {
+    opacity: 50%;
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+
+.view img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    opacity: 1;
+}
+
+
+
+
+.view {
+    position: absolute;
+
+}
+
 
 .title {
     margin-left: 26px;
     margin-bottom: 30px;
+}
+
+.title:hover {
+    color: cyan;
+    cursor: pointer;
+}
+
+.title h3:hover {
+    color: cyan;
+    cursor: pointer;
 }
 
 .desc {
@@ -66,13 +114,13 @@ h3 {
     margin-left: 25px;
 }
 
-.pricing p{
+.pricing p {
     margin-left: 5px;
     color: cyan;
     font-weight: 400;
 }
 
-.pricing img{
+.pricing img {
     height: 22px;
 }
 
@@ -119,4 +167,9 @@ h3 {
 
 .text-white {
     color: white;
+}
+
+.text-white:hover {
+    color: cyan;
+    cursor: pointer;
 }
